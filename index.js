@@ -11,7 +11,7 @@ function SaludosFunc(value, index, array) {
 
 m = document.createElement("p");
 m.id = "pm";
-m.innerHTML = "我想要食物、房子和汽车。\n你能帮助我吗？";
+//m.innerHTML = "我想要食物、房子和汽车。\n你能帮助我吗？";
 document.body.appendChild(m);
 
 var link = document.createElement("a");
