@@ -11,7 +11,7 @@ function SaludosFunc(value, index, array) {
 
 m = document.createElement("p");
 m.id = "pm";
-//m.innerHTML = "我想要食物、房子和汽车。\n你能帮助我吗？";
+m.innerHTML = "支持我的人!";
 document.body.appendChild(m);
 
 var link = document.createElement("a");
@@ -36,9 +36,18 @@ function emojiChange(value) {
   }
 }
 emojiChange(false);
+
 link.addEventListener("mouseover", function () {
   emojiChange(true);
 });
 link.addEventListener("mouseleave", function () {
+  emojiChange(false);
+});
+
+link.addEventListener("touchmove", function () {
+  emojiChange(true);
+});
+
+link.addEventListener("touchend", function () {
   emojiChange(false);
 });
