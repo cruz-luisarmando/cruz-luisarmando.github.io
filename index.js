@@ -11,7 +11,7 @@ function SaludosFunc(value, index, array) {
 
 m = document.createElement("p");
 m.id = "pm";
-m.innerHTML = "支持我的人!";
+m.innerHTML = "支持我的人! </br> 美食、家居、匠心、健康";
 document.body.appendChild(m);
 
 var link = document.createElement("a");
