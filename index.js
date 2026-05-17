@@ -11,13 +11,13 @@ function SaludosFunc(value, index, array) {
 
 m = document.createElement("p");
 m.id = "pm";
-m.innerHTML = "-App development </br> IT support </br> -Language support(English, Spanish)";
+m.innerHTML = "Manufacturing/Engineering </br> IT  </br> Business </br> Support";
 //m.innerHTML = "支持我的人! </br> 美食、家居、匠心、健康";
 document.body.appendChild(m);
 
 var link = document.createElement("a");
 link.href = "https://ko-fi.com/luis239732";
-link.innerHTML = "Donation";
+link.innerHTML = "Support me";
 link.className =
   "text-uppercase link-success link-opacity-50 link-opacity-50-hover link-offset-3 link-underline-opacity-10 link-underline-opacity-100-hover";
 
